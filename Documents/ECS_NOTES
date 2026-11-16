@@ -1,0 +1,18 @@
+ECS: ELASTIC CONTAINER SERVICE.
+
+ECS service is used to easily manage,update and deploy our containers.
+ECS is a orchestration service available in aws.
+
+Example: K8s,Docker Swarm,Mesos
+
+Cluster: Group of ec2 servers
+ECS-Agent: to maintain/keep the details of ec2 cluster,tasks and other resource utilization.
+Task Definition: Blueprint of container example image url,port number,volumes and memory and cpu details.
+Tasks: Task is nothing but running containers
+Services: This will helps us to provide ASG to our tasks.
+
+Replica services place and maintain a desired number of tasks across your cluster.
+Daemon services place and maintain one copy of your task on each container instance. 
+
+AWS Fargate is a technology that you can use with Amazon ECS to run containers without 
+having to manage servers or clusters of Amazon EC2 instances.
